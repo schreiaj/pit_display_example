@@ -375,10 +375,24 @@ module.exports = function (grunt) {
                 'imagemin',
                 'svgmin'
             ]
+        },
+        buildcontrol: {
+          options: {
+            dir: 'dist',
+            commit: true,
+            push: true,
+            message: 'Built from %sourceCommit% on branch %sourceBranch%'
+          },
+          pages: {
+            options: {
+              remote: 'git@github.com:schreiaj/pit_display_example.git',
+              branch: 'gh-pages'
+            }
+          }
         }
     });
 
-
+    grunt.registerTask('deploy', 'Deploy to Github Pages', ['build', 'buildcontrol']);
     grunt.registerTask('serve', function (target) {
         if (target === 'dist') {
             return grunt.task.run(['build', 'connect:dist:keepalive']);
