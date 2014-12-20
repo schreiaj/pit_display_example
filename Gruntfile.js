@@ -327,6 +327,13 @@ module.exports = function (grunt) {
 
         // Copies remaining files to places other tasks can use
         copy: {
+            svg: {
+                expand: true,
+                dot: true,
+                cwd: '<%= config.app %>/images',
+                dest: '<%= config.dist %>/images/',
+                src: '{,*/}*.svg'
+            },
             dist: {
                 files: [{
                     expand: true,
@@ -372,6 +379,7 @@ module.exports = function (grunt) {
                 'coffee',
                 'sass',
                 'copy:styles',
+                'copy:svg',
                 'imagemin'
                 // 'svgmin'
             ]
