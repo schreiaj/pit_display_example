@@ -372,8 +372,8 @@ module.exports = function (grunt) {
                 'coffee',
                 'sass',
                 'copy:styles',
-                'imagemin',
-                'svgmin'
+                'imagemin'
+                // 'svgmin'
             ]
         },
         buildcontrol: {
