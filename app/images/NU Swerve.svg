@@ -1,55 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="2048px" height="1536px" viewBox="0 0 2048 1536" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="1024px" height="768px" viewBox="0 0 1024 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
     <title>NU Swerve</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="NU-Swerve" sketch:type="MSArtboardGroup">
-            <circle id="Wheel" stroke="#979797" fill-opacity="0.6" fill="#4A4A4A" sketch:type="MSShapeGroup" cx="793" cy="666" r="150"></circle>
-            <ellipse id="Oval-5" stroke="#979797" fill-opacity="0.6" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="792.5" cy="666" rx="125" ry="125"></ellipse>
-            <circle id="Oval-5" stroke="#979797" fill-opacity="0.6" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="792.5" cy="466" r="75"></circle>
-            <ellipse id="CIM" stroke="#979797" fill-opacity="0.6" fill="#4A4A4A" sketch:type="MSShapeGroup" cx="792.5" cy="256" rx="125" ry="125"></ellipse>
-            <rect id="Rectangle-1" stroke="#979797" fill-opacity="0.6" fill="#BC2D41" sketch:type="MSShapeGroup" x="642.5" y="116" width="300" height="650" rx="8"></rect>
-            <circle id="Oval-5" stroke="#979797" fill-opacity="0.6" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="792.5" cy="466" r="150"></circle>
-            <circle id="Oval-5" stroke="#979797" fill-opacity="0.6" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="792.5" cy="256" r="60"></circle>
-            <polygon id="Polygon-1" fill-opacity="0.6" fill="#4A4A4A" sketch:type="MSShapeGroup" points="792.5 441 814.150635 453.5 814.150635 478.5 792.5 491 770.849365 478.5 770.849365 453.5 "></polygon>
-            <g id="Bearing" sketch:type="MSLayerGroup" transform="translate(736.500000, 610.000000)" stroke="#979797">
+            <circle id="Wheel" stroke="#979797" fill-opacity="0.6" fill="#4A4A4A" sketch:type="MSShapeGroup" cx="191" cy="584" r="150"></circle>
+            <ellipse id="Oval-5" stroke="#979797" fill-opacity="0.6" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="190.75" cy="584" rx="125" ry="125"></ellipse>
+            <circle id="Oval-5" stroke="#979797" fill-opacity="0.6" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="190.75" cy="384" r="75"></circle>
+            <ellipse id="CIM" stroke="#979797" fill-opacity="0.6" fill="#4A4A4A" sketch:type="MSShapeGroup" cx="190.75" cy="174" rx="125" ry="125"></ellipse>
+            <rect id="Rectangle-1" stroke="#979797" fill-opacity="0.6" fill="#BC2D41" sketch:type="MSShapeGroup" x="40.75" y="34" width="300" height="650" rx="8"></rect>
+            <circle id="Oval-5" stroke="#979797" fill-opacity="0.6" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="190.75" cy="384" r="150"></circle>
+            <circle id="Oval-5" stroke="#979797" fill-opacity="0.6" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="190.75" cy="174" r="60"></circle>
+            <polygon id="Polygon-1" fill-opacity="0.6" fill="#4A4A4A" sketch:type="MSShapeGroup" points="190.75 359 212.400635 371.5 212.400635 396.5 190.75 409 169.099365 396.5 169.099365 371.5 "></polygon>
+            <g id="Bearing" sketch:type="MSLayerGroup" transform="translate(134.750000, 528.000000)" stroke="#979797">
                 <circle id="Oval-1" sketch:type="MSShapeGroup" cx="56.25" cy="56.25" r="56.25"></circle>
             </g>
-            <g id="Bearing" sketch:type="MSLayerGroup" transform="translate(736.500000, 410.000000)" stroke="#979797">
+            <g id="Bearing" sketch:type="MSLayerGroup" transform="translate(134.750000, 328.000000)" stroke="#979797">
                 <circle id="Oval-1" sketch:type="MSShapeGroup" cx="56.25" cy="56.25" r="56.25"></circle>
             </g>
-            <g id="data" sketch:type="MSLayerGroup" transform="translate(823.000000, 131.000000)">
+            <g id="data" sketch:type="MSLayerGroup" transform="translate(221.250000, 41.000000)">
                 <g id="CIM-Motor" transform="translate(55.500000, 0.000000)">
                     <text id="label" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-style="italic" font-weight="260" fill="#000000">
-                        <tspan x="387" y="23">CIM Motor</tspan>
+                        <tspan x="387" y="31">CIM Motor</tspan>
                     </text>
                     <text id="content" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="18" font-style="italic" font-weight="260" fill="#000000">
-                        <tspan x="423" y="46">This powers the drive of the </tspan>
-                        <tspan x="423" y="68">module.</tspan>
-                        <tspan x="423" y="90"></tspan>
-                        <tspan x="423" y="112">Power is transmitted to it via a </tspan>
-                        <tspan x="423" y="134">slip ring, this allows for infinite </tspan>
-                        <tspan x="423" y="156">rotation without the complexity </tspan>
-                        <tspan x="423" y="178">or efficiency of bevel gears.</tspan>
+                        <tspan x="423" y="54">This powers the drive of the </tspan>
+                        <tspan x="423" y="76">module.</tspan>
+                        <tspan x="423" y="98"></tspan>
+                        <tspan x="423" y="120">Power is transmitted to it via a </tspan>
+                        <tspan x="423" y="142">slip ring, this allows for infinite </tspan>
+                        <tspan x="423" y="164">rotation without the complexity </tspan>
+                        <tspan x="423" y="186">or efficiency of bevel gears.</tspan>
                     </text>
-                    <g id="target" transform="translate(0.000000, 51.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
+                    <g id="target" transform="translate(0.000000, 59.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
                         <circle id="Oval-9" cx="12.5" cy="12.5" r="12.5"></circle>
+                    </g>
+                    <g id="touch" transform="translate(340.000000, 0.000000)" sketch:type="MSShapeGroup">
+                        <circle id="Oval-14" stroke="#BC2D41" fill-opacity="0" fill="#D8D8D8" cx="20.5" cy="21" r="21"></circle>
+                        <circle id="Oval-15" fill="#BC2D41" cx="21.5" cy="21.5" r="10.5"></circle>
                     </g>
                 </g>
                 <g id="Colson-Wheel" transform="translate(88.500000, 400.000000)">
                     <text id="label" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-style="italic" font-weight="260" fill="#000000">
-                        <tspan x="387" y="23">Colson Wheel</tspan>
+                        <tspan x="387" y="31">Colson Wheel</tspan>
                     </text>
                     <text id="content" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="18" font-style="italic" font-weight="260" fill="#000000">
-                        <tspan x="423" y="46">Mo Traction, No Problem</tspan>
+                        <tspan x="423" y="54">Mo Traction, No Problem</tspan>
                     </text>
-                    <g id="target" transform="translate(0.000000, 51.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
+                    <g id="target" transform="translate(0.000000, 59.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
                         <circle id="Oval-9" cx="12.5" cy="12.5" r="12.5"></circle>
                     </g>
+                    <g id="touch" transform="translate(336.000000, 0.000000)" sketch:type="MSShapeGroup">
+                        <circle id="Oval-14" stroke="#BC2D41" fill-opacity="0" fill="#D8D8D8" cx="21.5" cy="21" r="21"></circle>
+                        <circle id="Oval-15" fill="#BC2D41" cx="22.5" cy="21.5" r="10.5"></circle>
+                    </g>
                 </g>
-                <g id="Gearing" transform="translate(0.000000, 112.000000)">
+                <g id="Gearing" transform="translate(0.000000, 120.000000)">
                     <text id="label" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-style="italic" font-weight="260" fill="#000000">
                         <tspan x="476" y="158">Vex Pro Gearing</tspan>
                     </text>
@@ -68,6 +76,10 @@
                     </g>
                     <g id="target" fill="#D8D8D8" sketch:type="MSShapeGroup">
                         <circle id="Oval-9" cx="12.5" cy="12.5" r="12.5"></circle>
+                    </g>
+                    <g id="touch" transform="translate(424.500000, 130.000000)" sketch:type="MSShapeGroup">
+                        <circle id="Oval-14" stroke="#BC2D41" fill-opacity="0" fill="#D8D8D8" cx="21.5" cy="21" r="21"></circle>
+                        <circle id="Oval-15" fill="#BC2D41" cx="22.5" cy="21.5" r="10.5"></circle>
                     </g>
                 </g>
             </g>

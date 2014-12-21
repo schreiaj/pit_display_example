@@ -1,5 +1,6 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
+
 // bower:scss
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 // endbower
@@ -96,3 +97,30 @@ body {
 path {
   stroke: black;
 }
+
+
+// path{
+//   -webkit-animation-name: color-pulse;
+//   -webkit-animation-duration: 1s;
+//   -webkit-animation-iteration-count: infinite;
+//   -webkit-animation-timing-function: ease-in-out;
+//   -webkit-animation-direction: alternate;
+//
+//   animation-name: color-pulse;
+//   animation-duration: 1s;
+//   animation-iteration-count: infinite;
+//   animation-timing-function: ease-in-out;
+//   animation-direction: alternate;
+//
+//   -moz-animation: none;
+// }
+//
+// @-webkit-keyframes color-pulse {
+//   0% { stroke-width:1;                 }
+//   100% { stroke-width:4; }
+// }
+//
+// @keyframes color-pulse {
+//   0% { stroke-width:1; }
+//   100% { stroke-width:4; }
+// }
