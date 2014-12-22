@@ -12,6 +12,7 @@ d3.xml('images/NU Swerve.svg', 'image/svg+xml', (error, data) ->
       d3.selectAll("#data #content").style("display", "none")
       d3.selectAll("#data #target").style("display", "none")
       d3.selectAll("#data>#content")
+      lineGen = d3.svg.line().x((d) -> d.x).y((d) -> d.y).interpolate("step-after")
       d3.selectAll("#data>g").on("mouseover", () ->
         # find the targets
         group = this
@@ -31,7 +32,7 @@ d3.xml('images/NU Swerve.svg', 'image/svg+xml', (error, data) ->
           console.log  targPos
           targPos = _.object(["x","y"], targPos)
 
-          d3.select(group).append("path").attr("d", d3.svg.diagonal().source(sourcePos).target(targPos))
+          d3.select(group).append("path").attr("d", lineGen([sourcePos, targPos]))
         )
         d3.select(this).select("#content").style("display","block")
       )
